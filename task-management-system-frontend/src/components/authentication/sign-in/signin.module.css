@@ -11,19 +11,46 @@
 
 .sign_in_container p {
   margin-top: 5px;
+  color: grey;
 }
 
 .sign_in_container_inputs {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .sign_in_container_inputs input {
   padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: gray;
+  font-size: 16px;
+}
+
+.sign_in_container_inputs div {
+  display: flex;
+  gap: 10px;
+  color: grey;
 }
 
 .sign_in_container button {
+  font-size: 16px;
   padding: 10px;
   margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #007cff;
+}
+
+.sign_in_container button:hover {
+  cursor: pointer;
+  background-color: #024d9d;
+}
+
+.sign_in_container_link {
+  padding-top: 20px;
+  text-align: center;
+  cursor: pointer;
 }
