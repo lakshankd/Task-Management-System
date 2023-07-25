@@ -12,7 +12,7 @@ export default function SignUp(props) {
 
   return (
     <div className={styles.sign_up_container}>
-      <h1>Create an accouunt</h1>
+      <h1>Create an account</h1>
       <div className={styles.sign_up_container_inputs}>
         <input type="text" placeholder="First Name" />
         <input type="text" placeholder="Last Name" />
