@@ -6,7 +6,7 @@ import signInImg from "../../assets/auth/sign-in.jpg";
 import signUpImg from "../../assets/auth/sign-up.jpg";
 
 export default function Authentication() {
-  const [isSignIn, setIsSignIn] = useState(false);
+  const [isSignIn, setIsSignIn] = useState(true);
 
   return (
     <div className={styles.auth_container}>
