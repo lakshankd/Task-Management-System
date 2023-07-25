@@ -1,10 +1,10 @@
-package com.lakshankd.taskmanagementsystembackend;
+package com.lakshankd.taskmanagementsystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskManagementSystemBackendApplicationTests {
+class TaskManagementSystemApplicationTests {
 
 	@Test
 	void contextLoads() {
